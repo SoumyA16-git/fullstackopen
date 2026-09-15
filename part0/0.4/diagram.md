@@ -1,0 +1,33 @@
+```mermaid
+sequenceDiagram
+    participant browser
+    participant server
+
+    Note right of browser: User writes a note in the text field and clicks Save
+
+    browser->>server: POST /exampleapp/new_note
+    activate server
+    server-->>browser: HTTP 302 Redirect to /notes
+    deactivate server
+
+    browser->>server: GET /exampleapp/notes
+    activate server
+    server-->>browser: HTML document
+    deactivate server
+
+    browser->>server: GET /exampleapp/main.css
+    activate server
+    server-->>browser: CSS file
+    deactivate server
+
+    browser->>server: GET /exampleapp/main.js
+    activate server
+    server-->>browser: JavaScript file
+    deactivate server
+
+    browser->>server: GET /exampleapp/data.json
+    activate server
+    server-->>browser: JSON containing notes, including the new note
+    deactivate server
+
+    Note right of browser: Browser executes JavaScript and renders the notes
