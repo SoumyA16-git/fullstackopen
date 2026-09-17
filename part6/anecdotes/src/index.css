@@ -1,0 +1,50 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+  background: #fff8ed;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+button {
+  margin: 0.25rem 0.5rem 0.25rem 0;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #c9a66b;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #fff0cc;
+}
+
+li {
+  margin: 0.75rem 0;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+input {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  min-width: 20rem;
+}
+
+.notification {
+  border: 1px solid #2f855a;
+  background: #e6ffed;
+  color: #22543d;
+  padding: 0.6rem;
+  margin: 1rem 0;
+}
