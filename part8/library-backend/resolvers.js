@@ -172,6 +172,11 @@ const resolvers = {
       }
     },
     _resetDatabase: async () => {
+      if (process.env.NODE_ENV !== 'test') {
+        throw new GraphQLError('_resetDatabase is only available in test mode', {
+          extensions: { code: 'FORBIDDEN' }
+        })
+      }
       await Author.deleteMany({})
       await Book.deleteMany({})
       await User.deleteMany({})
