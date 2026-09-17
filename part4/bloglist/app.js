@@ -25,6 +25,18 @@ app.use('/api/blogs', blogsRouter)
 app.use('/api/users', usersRouter)
 app.use('/api/login', loginRouter)
 
+if (process.env.NODE_ENV === 'test' || process.env.NODE_ENV === 'development') {
+  const User = require('./models/user')
+  const Blog = require('./models/blog')
+
+  app.post('/api/testing/reset', async (request, response) => {
+    await User.deleteMany({})
+    await Blog.deleteMany({})
+
+    response.status(204).end()
+  })
+}
+
 app.use(middleware.unknownEndpoint)
 app.use(middleware.errorHandler)
 

@@ -31,7 +31,12 @@ blogsRouter.post(
       user.blogs = user.blogs.concat(savedBlog._id)
       await user.save()
 
-      response.status(201).json(savedBlog)
+      const populatedBlog = await savedBlog.populate(
+        'user',
+        { username: 1, name: 1 }
+      )
+
+      response.status(201).json(populatedBlog)
     } catch (error) {
       response.status(400).json({
         error: error.message
@@ -73,13 +78,14 @@ blogsRouter.put('/:id', async (request, response) => {
       title: body.title,
       author: body.author,
       url: body.url,
-      likes: body.likes
+      likes: body.likes,
+      user: body.user
     },
     {
       new: true,
       runValidators: true
     }
-  )
+  ).populate('user', { username: 1, name: 1 })
 
   response.json(updatedBlog)
 })
