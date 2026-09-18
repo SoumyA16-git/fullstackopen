@@ -14,12 +14,13 @@ Scan the QR code below using the **Expo Go** app on your mobile device or emulat
   <img src="./part10/rate-repository-app/qr-code.png" alt="EAS Update QR Code" width="280" height="280" />
 </p>
 
-- **EAS Dashboard**: [https://expo.dev/accounts/soumya16-1/projects/rate-repository-app/updates/1c9f7741-afe5-4ab7-a9b3-cc7833edf03f](https://expo.dev/accounts/soumya16-1/projects/rate-repository-app/updates/1c9f7741-afe5-4ab7-a9b3-cc7833edf03f)
+- **EAS Dashboard**: [https://expo.dev/accounts/soumya16-1/projects/rate-repository-app/updates/2a3bcf81-6c5a-4d21-86c9-d5251a61605c](https://expo.dev/accounts/soumya16-1/projects/rate-repository-app/updates/2a3bcf81-6c5a-4d21-86c9-d5251a61605c)
 - **EAS Project**: `@soumya16-1/rate-repository-app`
+- **Owner**: `soumya16-1`
 - **Branch**: `main`
 - **Environment**: `preview`
 - **Runtime Version**: `exposdk:52.0.0`
-- **Update Group ID**: `1c9f7741-afe5-4ab7-a9b3-cc7833edf03f`
+- **Update Group ID**: `2a3bcf81-6c5a-4d21-86c9-d5251a61605c`
 - **Backend GraphQL API**: [https://rate-repository-api-2.ext.ocp-prod-0.k8s.it.helsinki.fi/](https://rate-repository-api-2.ext.ocp-prod-0.k8s.it.helsinki.fi/)
 
 ---
