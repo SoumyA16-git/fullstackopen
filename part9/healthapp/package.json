@@ -1,0 +1,26 @@
+{
+  "name": "healthapp",
+  "version": "1.0.0",
+  "description": "Full Stack Open Part 9 - TypeScript BMI and Exercise Calculator",
+  "type": "module",
+  "scripts": {
+    "tsc": "tsc",
+    "calculateBmi": "node --no-warnings bmiCalculator.ts",
+    "calculateExercises": "node --no-warnings exerciseCalculator.ts",
+    "start": "node index.ts",
+    "dev": "node --watch index.ts",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.9",
+    "eslint": "^9.21.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0"
+  }
+}

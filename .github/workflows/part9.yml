@@ -1,0 +1,58 @@
+name: Part 9 TypeScript Tests & Builds
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  test-and-build-part9:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Test & Typecheck Healthapp (First Steps 9.1-9.7)
+        run: |
+          npm install --no-package-lock
+          npm run tsc
+          npm run lint
+          npm run calculateBmi 180 74
+          npm run calculateExercises 2 1 0 2 4.5 0 3 1 0 4
+        working-directory: part9/healthapp
+
+      - name: Test & Typecheck Patientor Backend (9.8-9.15, 9.22, 9.27-9.29)
+        run: |
+          npm install --no-package-lock
+          npm run tsc
+          npm run lint
+        working-directory: part9/patientor/backend
+
+      - name: Build Courseinfo (React with types 9.16-9.17)
+        run: |
+          npm install --no-package-lock
+          npm run build
+        working-directory: part9/courseinfo
+
+      - name: Test & Typecheck Flight Diary Backend (9.18-9.21)
+        run: |
+          npm install --no-package-lock
+          npm run tsc
+          npm run lint
+        working-directory: part9/flight-diary/backend
+
+      - name: Build Flight Diary Frontend (9.18-9.21)
+        run: |
+          npm install --no-package-lock
+          npm run build
+        working-directory: part9/flight-diary/frontend
+
+      - name: Build Patientor Frontend (9.23-9.26, 9.30)
+        run: |
+          npm install --no-package-lock
+          npm run build
+        working-directory: part9/patientor/frontend
