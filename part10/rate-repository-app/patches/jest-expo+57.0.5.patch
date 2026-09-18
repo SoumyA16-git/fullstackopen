@@ -1,0 +1,12 @@
+diff --git a/node_modules/jest-expo/src/preset/setup.js b/node_modules/jest-expo/src/preset/setup.js
+index 1234567..abcdefg 100644
+--- a/node_modules/jest-expo/src/preset/setup.js
++++ b/node_modules/jest-expo/src/preset/setup.js
+@@ -7,7 +7,8 @@ const fs = require('fs');
+ const merge = require('lodash/merge');
+ const path = require('path');
+-const mockNativeModules = require('react-native/Libraries/BatchedBridge/NativeModules').default;
++const _nativeModulesModule = require('react-native/Libraries/BatchedBridge/NativeModules'); const mockNativeModules = _nativeModulesModule.default || _nativeModulesModule;
+ const stackTrace = require('stacktrace-js');
+ 
+ const publicExpoModules = require('./moduleMocks/expoModules');
