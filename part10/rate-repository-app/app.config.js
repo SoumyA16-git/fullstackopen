@@ -3,7 +3,7 @@ export default {
   slug: 'rate-repository-app',
   owner: 'soumya16-1',
   version: '1.0.0',
-  sdkVersion: '52.0.0',
+  sdkVersion: '57.0.0',
   orientation: 'portrait',
   userInterfaceStyle: 'light',
   ios: {
