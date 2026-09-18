@@ -1,29 +1,37 @@
 # Full Stack Open - Rate Repository App (Part 10)
 
-This is the mobile application developed for **Full Stack Open Part 10: React Native**.
+This is the mobile application developed for **Full Stack Open Part 10: React Native** (Exercises 10.1–10.29).
+
+---
 
 ## 📱 EAS Update (Exercise 10.28)
 
-Open the application with Expo Go on your mobile device or emulator by scanning the QR code below:
+Open the application with **Expo Go** on your mobile device or emulator by scanning the QR code below:
 
-<!-- Place your EAS QR Code screenshot or link here -->
-![EAS Update QR Code](./qr-code.png)
+<p align="center">
+  <img src="./qr-code.png" alt="EAS Update QR Code" width="280" height="280" />
+</p>
 
-- **EAS Project Branch**: `main`
+- **EAS Dashboard**: [https://expo.dev/accounts/soumya16-1/projects/rate-repository-app/updates/87d5e3a4-77a6-46ba-8158-d7707f8786cd](https://expo.dev/accounts/soumya16-1/projects/rate-repository-app/updates/87d5e3a4-77a6-46ba-8158-d7707f8786cd)
+- **EAS Project**: `@soumya16-1/rate-repository-app`
+- **Branch**: `main`
 - **Environment**: `preview`
+- **Update Group ID**: `87d5e3a4-77a6-46ba-8158-d7707f8786cd`
 - **Backend GraphQL API**: [https://rate-repository-api-2.ext.ocp-prod-0.k8s.it.helsinki.fi/](https://rate-repository-api-2.ext.ocp-prod-0.k8s.it.helsinki.fi/)
 
 ---
 
-## 🛠️ Tech Stack & Features
+## 🛠️ Features & Implementation
 
-- **Framework**: React Native with Expo SDK 52
-- **Routing**: `react-router-native`
-- **Data & Cache**: Apollo Client GraphQL with Relay-style cursor pagination (`relayStylePagination`)
-- **State & Storage**: AsyncStorage token persistence
-- **Forms & Validation**: Formik + Yup
-- **Testing**: Jest + React Native Testing Library (`@testing-library/react-native`)
-- **CI/CD**: GitHub Actions automated lint & test pipeline
+- **Repositories List & Item**: Flexbox layout, avatar, description, language chip, formatted statistics (`k` notation for >= 1000).
+- **Navigation**: Top scrollable `AppBar` with `react-router-native` navigation tabs.
+- **Authentication**: JWT AsyncStorage persistence with custom hooks (`useSignIn`, `useSignUp`) and `AuthStorageContext`.
+- **GraphQL Integration**: Apollo Client with authentication headers, cache normalization, and `relayStylePagination`.
+- **Single Repository View**: Detailed repository view with "Open in GitHub" button (`Linking.openURL`) and reviews list.
+- **Create & Delete Reviews**: Formik & Yup validated review form, user review list with confirmation dialog (`Alert.alert`) and deletion.
+- **Sorting & Searching**: Order picker (Latest / Highest / Lowest rated) and search bar with `use-debounce`.
+- **Infinite Scrolling**: Cursor-based pagination using `fetchMore` and `onEndReached`.
+- **Automated Tests**: Comprehensive unit tests with Jest and React Native Testing Library (`@testing-library/react-native`).
 
 ---
 

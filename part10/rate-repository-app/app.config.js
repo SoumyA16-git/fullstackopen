@@ -14,6 +14,18 @@ export default {
   },
   extra: {
     env: process.env.ENV,
-    apolloUri: process.env.APOLLO_URI || 'http://localhost:4000/graphql',
+    apolloUri:
+      process.env.EXPO_PUBLIC_APOLLO_URI ||
+      process.env.APOLLO_URI ||
+      'https://rate-repository-api-2.ext.ocp-prod-0.k8s.it.helsinki.fi/',
+    eas: {
+      projectId: 'f927a601-67f3-45a9-a4df-7de7b2c2c8a6',
+    },
+  },
+  updates: {
+    url: 'https://u.expo.dev/f927a601-67f3-45a9-a4df-7de7b2c2c8a6',
+  },
+  runtimeVersion: {
+    policy: 'appVersion',
   },
 };
