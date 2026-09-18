@@ -114,5 +114,5 @@ global.__turboModuleProxy = (name) => {
     },
   };
 
-  return mocks[name] || {};
+  return mocks[name] || null;
 };
