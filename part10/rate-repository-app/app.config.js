@@ -26,6 +26,6 @@ export default {
     url: 'https://u.expo.dev/f927a601-67f3-45a9-a4df-7de7b2c2c8a6',
   },
   runtimeVersion: {
-    policy: 'appVersion',
+    policy: 'sdkVersion',
   },
 };
