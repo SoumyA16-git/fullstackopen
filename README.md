@@ -4,6 +4,15 @@ Repository containing completed exercises for the University of Helsinki [Full S
 
 ---
 
+## 🐘 Part 13: Using Relational Databases (PostgreSQL & Sequelize)
+
+### 🔗 Submission Links (Exercise 13.27)
+
+- **Exercise Repository**: [https://github.com/SoumyA16-git/fs-relational-databases](https://github.com/SoumyA16-git/fs-relational-databases)
+- **CI Test Suite (PostgreSQL 17)**: [https://github.com/SoumyA16-git/fs-relational-databases/actions](https://github.com/SoumyA16-git/fs-relational-databases/actions)
+
+---
+
 ## 🐳 Part 12: Containers (Docker)
 
 ### 🔗 Submission Links (Exercise 12.24)
@@ -62,3 +71,4 @@ Scan the QR code below using the **Expo Go** app on your mobile device or emulat
 - [`part10/`](./part10/rate-repository-app) — React Native (Rate Repository App)
 - [`part11/`](./part11) — CI/CD (Pokedex & Bloglist pipelines)
 - [`part12/`](./part12) — Containers (Docker, Docker Compose, Orchestration)
+- [`part13/`](./part13) — Using Relational Databases (PostgreSQL, Sequelize, Migrations)
