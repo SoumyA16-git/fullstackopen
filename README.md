@@ -4,6 +4,19 @@ Repository containing completed exercises for the University of Helsinki [Full S
 
 ---
 
+## 🚀 Part 11: CI/CD (Continuous Integration / CD)
+
+### 🔗 Submission Links (Exercise 11.23)
+
+- **Primary Repository (Pokedex)**: [https://github.com/SoumyA16-git/fs-pokedex](https://github.com/SoumyA16-git/fs-pokedex)
+- **Live Deployed Pokedex Application**: [https://fs-pokedex-4bka.onrender.com](https://fs-pokedex-4bka.onrender.com)
+- **Pokedex Health Endpoint**: [https://fs-pokedex-4bka.onrender.com/health](https://fs-pokedex-4bka.onrender.com/health)
+- **Own Pipeline Repository (Bloglist CI/CD - Exercises 11.21 & 11.22)**: [https://github.com/SoumyA16-git/fullstackopen-bloglist-ci](https://github.com/SoumyA16-git/fullstackopen-bloglist-ci)
+- **Bloglist PR for Review**: [https://github.com/SoumyA16-git/fullstackopen-bloglist-ci/pull/1](https://github.com/SoumyA16-git/fullstackopen-bloglist-ci/pull/1)
+- **Bloglist Collaborator Invite Link for `@mluukkai`**: [https://github.com/SoumyA16-git/fullstackopen-bloglist-ci/invitations](https://github.com/SoumyA16-git/fullstackopen-bloglist-ci/invitations)
+
+---
+
 ## 📱 Part 10: React Native — Rate Repository App
 
 ### EAS Update & QR Code (Exercise 10.28)
@@ -38,3 +51,4 @@ Scan the QR code below using the **Expo Go** app on your mobile device or emulat
 - [`part8/`](./part8) — GraphQL (Apollo Server & Client)
 - [`part9/`](./part9) — TypeScript (Patientor, Healthapp, Flight Diary)
 - [`part10/`](./part10/rate-repository-app) — React Native (Rate Repository App)
+- [`part11/`](./part11) — CI/CD (Pokedex & Bloglist pipelines)
