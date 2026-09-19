@@ -4,3 +4,6 @@
 [submodule "part11/bloglist-ci"]
 	path = part11/bloglist-ci
 	url = https://github.com/SoumyA16-git/fullstackopen-bloglist-ci.git
+[submodule "part12/containers"]
+	path = part12/containers
+	url = https://github.com/SoumyA16-git/fs-containers.git

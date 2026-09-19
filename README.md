@@ -4,6 +4,15 @@ Repository containing completed exercises for the University of Helsinki [Full S
 
 ---
 
+## 🐳 Part 12: Containers (Docker)
+
+### 🔗 Submission Links (Exercise 12.24)
+
+- **Exercise Repository**: [https://github.com/SoumyA16-git/fs-containers](https://github.com/SoumyA16-git/fs-containers)
+- **Own Application Repository (Exercises 12.22 & 12.23)**: [https://github.com/SoumyA16-git/fullstackopen-bloglist-ci](https://github.com/SoumyA16-git/fullstackopen-bloglist-ci)
+
+---
+
 ## 🚀 Part 11: CI/CD (Continuous Integration / CD)
 
 ### 🔗 Submission Links (Exercise 11.23)
@@ -52,3 +61,4 @@ Scan the QR code below using the **Expo Go** app on your mobile device or emulat
 - [`part9/`](./part9) — TypeScript (Patientor, Healthapp, Flight Diary)
 - [`part10/`](./part10/rate-repository-app) — React Native (Rate Repository App)
 - [`part11/`](./part11) — CI/CD (Pokedex & Bloglist pipelines)
+- [`part12/`](./part12) — Containers (Docker, Docker Compose, Orchestration)
