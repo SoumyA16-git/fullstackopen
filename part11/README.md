@@ -8,9 +8,9 @@ This folder links to the two standalone GitHub repositories created and verified
 
 ### 1. Primary Repository: Pokedex (Exercises 11.2 – 11.20)
 - **GitHub Repository**: [https://github.com/SoumyA16-git/fs-pokedex](https://github.com/SoumyA16-git/fs-pokedex)
-- **Live Deployed App**: [https://fs-pokedex-4bka.onrender.com](https://fs-pokedex-4bka.onrender.com)
-- **Health Check Endpoint**: [https://fs-pokedex-4bka.onrender.com/health](https://fs-pokedex-4bka.onrender.com/health)
-- **Version Endpoint**: [https://fs-pokedex-4bka.onrender.com/version](https://fs-pokedex-4bka.onrender.com/version)
+- **Live Deployed App**: [https://fs-pokedex-4yka.onrender.com](https://fs-pokedex-4yka.onrender.com)
+- **Health Check Endpoint**: [https://fs-pokedex-4yka.onrender.com/health](https://fs-pokedex-4yka.onrender.com/health)
+- **Version Endpoint**: [https://fs-pokedex-4yka.onrender.com/version](https://fs-pokedex-4yka.onrender.com/version)
 - **CI/CD Pipeline**: [`.github/workflows/pipeline.yml`](https://github.com/SoumyA16-git/fs-pokedex/blob/main/.github/workflows/pipeline.yml) (Lint, Jest unit tests, Playwright E2E tests, Render deploy hook, Discord alerts, Semantic Versioning)
 - **Periodic Health Check**: [`.github/workflows/periodic-health-check.yml`](https://github.com/SoumyA16-git/fs-pokedex/blob/main/.github/workflows/periodic-health-check.yml) (Daily cron health monitor)
 

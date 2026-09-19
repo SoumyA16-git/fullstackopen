@@ -9,8 +9,8 @@ Repository containing completed exercises for the University of Helsinki [Full S
 ### 🔗 Submission Links (Exercise 11.23)
 
 - **Primary Repository (Pokedex)**: [https://github.com/SoumyA16-git/fs-pokedex](https://github.com/SoumyA16-git/fs-pokedex)
-- **Live Deployed Pokedex Application**: [https://fs-pokedex-4bka.onrender.com](https://fs-pokedex-4bka.onrender.com)
-- **Pokedex Health Endpoint**: [https://fs-pokedex-4bka.onrender.com/health](https://fs-pokedex-4bka.onrender.com/health)
+- **Live Deployed Pokedex Application**: [https://fs-pokedex-4yka.onrender.com](https://fs-pokedex-4yka.onrender.com)
+- **Pokedex Health Endpoint**: [https://fs-pokedex-4yka.onrender.com/health](https://fs-pokedex-4yka.onrender.com/health)
 - **Own Pipeline Repository (Bloglist CI/CD - Exercises 11.21 & 11.22)**: [https://github.com/SoumyA16-git/fullstackopen-bloglist-ci](https://github.com/SoumyA16-git/fullstackopen-bloglist-ci)
 - **Bloglist PR for Review**: [https://github.com/SoumyA16-git/fullstackopen-bloglist-ci/pull/1](https://github.com/SoumyA16-git/fullstackopen-bloglist-ci/pull/1)
 - **Bloglist Collaborator Invite Link for `@mluukkai`**: [https://github.com/SoumyA16-git/fullstackopen-bloglist-ci/invitations](https://github.com/SoumyA16-git/fullstackopen-bloglist-ci/invitations)
